@@ -14,5 +14,7 @@
 		<property name="hbm2ddl.auto">create-drop</property>
 		<mapping class="fr.adaming.entities.Livre" />
 		<mapping class="fr.adaming.entities.Etagere" />
+		<mapping class="fr.adaming.entities.Client" />
+		<mapping class="fr.adaming.entities.Reservation" />
 	</session-factory>
 </hibernate-configuration>
